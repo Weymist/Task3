@@ -6,12 +6,12 @@ using System.IO;
 
 namespace Agent_pattern_
 {
-    abstract class  AbstractAgent
+    abstract class  AbstractAgent //шаблон агента
     {
         public List<string> messages;
         public string fileName;
 
-        public AbstractAgent(string fileName)
+        public AbstractAgent(string fileName) //конструктор агента
         {
             this.fileName = fileName;
             messages = new List<string>();

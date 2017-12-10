@@ -6,28 +6,28 @@ using System.Text;
 
 namespace Agent_pattern_
 {
-    /*abstract*/ class AgentDecorator : AbstractAgent
+    class AgentDecorator : AbstractAgent
     {
-        protected AbstractAgent agent;
-        protected StreamWriter logFile = new StreamWriter("log.txt");
+        protected AbstractAgent agent; //поле класса агент
+        protected StreamWriter logFile = new StreamWriter("log.txt"); //определение файла для вывода сообщения
 
-        public  AgentDecorator(string fileName, AbstractAgent agent) : base(fileName)
+        public  AgentDecorator(string fileName, AbstractAgent agent) : base(fileName) //конструктор агента
         {
             this.agent = agent;
         }
 
-        public override void ReadMessage()
+        public override void ReadMessage() //чтение сообщения из файла
         {
             agent.ReadMessage();
         }
 
-        public override void ShowMessage()
+        public override void ShowMessage() //вывод сообщения
         {
             LogMessage();
             agent.ShowMessage();
         }
 
-        protected void LogMessage()
+        protected void LogMessage() //метод вывода сообщения в файл
         {
             string logFileContent = "";
             try

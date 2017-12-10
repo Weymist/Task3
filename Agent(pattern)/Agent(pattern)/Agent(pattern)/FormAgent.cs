@@ -9,14 +9,14 @@ namespace Agent_pattern_
 {
     class FormAgent : AbstractAgent
     {
-        MessageForm form;
+        MessageForm form; //объявление формы
 
-        public FormAgent(string fileName) : base(fileName)
+        public FormAgent(string fileName) : base(fileName) //инициализация формы и вызов базового конструктора
         {
             form = new MessageForm();
         }
 
-        public override void ReadMessage()
+        public override void ReadMessage() //чтение из файла
         {
             StreamReader file = new StreamReader(fileName, Encoding.Default);
             try
@@ -38,7 +38,7 @@ namespace Agent_pattern_
             }
         }
 
-        public override void ShowMessage()
+        public override void ShowMessage() //вывод сообщеения в форму
         {
             Application.EnableVisualStyles();
             form.messageList.Items.AddRange(messages.ToArray());

@@ -8,10 +8,10 @@ namespace Agent_pattern_
 {
     class ConsoleAgent : AbstractAgent
     {
-        public ConsoleAgent(string fileName): base(fileName)
+        public ConsoleAgent(string fileName): base(fileName) //вызов базового конструктора
         { }
 
-        public override void ReadMessage()
+        public override void ReadMessage() //чтение сооьбщения из файла
         {
             StreamReader file = new StreamReader(fileName, Encoding.Default);
             try
@@ -33,7 +33,7 @@ namespace Agent_pattern_
             }
         }
 
-        public override void ShowMessage()
+        public override void ShowMessage() //вывод сообщения в консоль
         {
             foreach (string message in messages)
             {

@@ -7,8 +7,8 @@ namespace Agent_pattern_
 {
     class Program
     {
-        static AbstractAgent agent;
-        static AgentFactory fabrica = AgentFactory.GetInstance();
+        static AbstractAgent agent; //объявление агента
+        static AgentFactory fabrica = AgentFactory.GetInstance(); //создание фабрики
         static void Main(string[] args)
         {
             Console.WriteLine("Выбирете агента, обрабатывающего сообщения:" +
@@ -22,7 +22,7 @@ namespace Agent_pattern_
                 Console.WriteLine("Некорректный ввод. Повторите попытку");
                 agentType = Convert.ToInt32(Console.ReadLine());
             }
-            switch (agentType)
+            switch (agentType) //выбор агента
             {
                 case 1:
                     {
@@ -46,29 +46,28 @@ namespace Agent_pattern_
                     }
                 default:
                     break;
-            }
-            //agent.Run();
+            }         
             agent.ReadMessage();
             agent.ShowMessage();
             Console.ReadKey();
         }
 
-        static void RunConsoleAgent()
+        static void RunConsoleAgent() //конольный агент
         {
-            agent = fabrica.CreateConsoleAgent("test.txt");
+            agent = fabrica.CreateConsoleAgent("test.txt"); //инициализация агента
         }
 
-        static void RunFormAgent()
+        static void RunFormAgent() //форменный агент
         {
             agent = fabrica.CreateFormAgent("test.txt");
         }
 
-        static void RunConsoleLogAgent()
+        static void RunConsoleLogAgent() //консольный агент с выводом
         {
             agent = fabrica.CreateConsoleLogAgent("test.txt");
         }
 
-        static void RunFormLogAgent()
+        static void RunFormLogAgent() //форменный агент с выводом
         {
             agent = fabrica.CreateFormLogAgent("test.txt");
         }

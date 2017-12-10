@@ -7,12 +7,12 @@ namespace Agent_pattern_
 {
     class AgentFactory
     {
-        private static AgentFactory instance;
+        private static AgentFactory instance; //была ли фабрика создана
 
-        private AgentFactory()
+        private AgentFactory() //конструктор
         { }
 
-        public ConsoleAgent CreateConsoleAgent(string param)
+        public ConsoleAgent CreateConsoleAgent(string param) 
         {
             return new ConsoleAgent(param);
         }
@@ -36,7 +36,7 @@ namespace Agent_pattern_
             return agent;
         }
 
-        public static AgentFactory GetInstance()
+        public static AgentFactory GetInstance() //создание фабрики
         {
             if (instance == null)
             {
