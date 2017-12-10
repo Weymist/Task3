@@ -1,0 +1,22 @@
+\\csfs\home$\lukin_n_a\profile\my documents\visual studio 2010\Projects\Agent(pattern)\Agent(pattern)\bin\Debug\Agent(pattern).exe
+\\csfs\home$\lukin_n_a\profile\my documents\visual studio 2010\Projects\Agent(pattern)\Agent(pattern)\bin\Debug\Agent(pattern).pdb
+\\csfs\home$\lukin_n_a\profile\my documents\visual studio 2010\Projects\Agent(pattern)\Agent(pattern)\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\lukin_n_a\profile\my documents\visual studio 2010\Projects\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent_pattern_.MessageForm.resources
+\\csfs\home$\lukin_n_a\profile\my documents\visual studio 2010\Projects\Agent(pattern)\Agent(pattern)\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\lukin_n_a\profile\my documents\visual studio 2010\Projects\Agent(pattern)\Agent(pattern)\obj\x86\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\lukin_n_a\profile\my documents\visual studio 2010\Projects\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent(pattern).exe
+\\csfs\home$\lukin_n_a\profile\my documents\visual studio 2010\Projects\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent(pattern).pdb
+C:\Users\EgorV_000.PROMETEUS\Documentation\Univer\Programm\С#-proj\4й семестр\Agent_pattern\Agent(pattern)\obj\x86\Debug\Agent(pattern).exe
+C:\Users\EgorV_000.PROMETEUS\Documentation\Univer\Programm\С#-proj\4й семестр\Agent_pattern\Agent(pattern)\obj\x86\Debug\Agent(pattern).pdb
+C:\Users\EgorV_000.PROMETEUS\Documentation\Univer\Programm\С#-proj\4й семестр\Agent_pattern\Agent(pattern)\bin\Debug\Agent(pattern).exe
+C:\Users\EgorV_000.PROMETEUS\Documentation\Univer\Programm\С#-proj\4й семестр\Agent_pattern\Agent(pattern)\bin\Debug\Agent(pattern).pdb
+C:\Users\EgorV_000.PROMETEUS\Documentation\Univer\Programm\С#-proj\4й семестр\Agent_pattern\Agent(pattern)\obj\x86\Debug\Agent_pattern_.MessageForm.resources
+C:\Users\EgorV_000.PROMETEUS\Documentation\Univer\Programm\С#-proj\4й семестр\Agent_pattern\Agent(pattern)\obj\x86\Debug\Agent(pattern).csproj.GenerateResource.Cache
+C:\Users\EgorV_000.PROMETEUS\Documentation\Univer\Programm\С#-proj\4й семестр\Agent_pattern\Agent(pattern)\obj\x86\Debug\Agent(pattern).csprojResolveAssemblyReference.cache
+C:\Laksha\ООП\Agent_pattern-master (2)\Agent_pattern-master\Agent(pattern)\obj\x86\Debug\Agent(pattern).exe
+C:\Laksha\ООП\Agent_pattern-master (2)\Agent_pattern-master\Agent(pattern)\obj\x86\Debug\Agent(pattern).pdb
+C:\Laksha\ООП\Agent_pattern-master (2)\Agent_pattern-master\Agent(pattern)\bin\Debug\Agent(pattern).exe
+C:\Laksha\ООП\Agent_pattern-master (2)\Agent_pattern-master\Agent(pattern)\bin\Debug\Agent(pattern).pdb
+C:\Laksha\ООП\Agent_pattern-master (2)\Agent_pattern-master\Agent(pattern)\obj\x86\Debug\Agent(pattern).csprojResolveAssemblyReference.cache
+C:\Laksha\ООП\Agent_pattern-master (2)\Agent_pattern-master\Agent(pattern)\obj\x86\Debug\Agent_pattern_.MessageForm.resources
+C:\Laksha\ООП\Agent_pattern-master (2)\Agent_pattern-master\Agent(pattern)\obj\x86\Debug\Agent(pattern).csproj.GenerateResource.Cache
