@@ -11,7 +11,7 @@ namespace Agent_pattern_
         public ConsoleAgent(string fileName): base(fileName) //вызов базового конструктора
         { }
 
-        public override void ReadMessage() //чтение сооьбщения из файла
+        public override void ReadMessage() //чтение сообщения из файла
         {
             StreamReader file = new StreamReader(fileName, Encoding.Default);
             try
@@ -29,7 +29,7 @@ namespace Agent_pattern_
             }
             finally
             {
-                file.Close();
+                file.Close(); //закрытие файла
             }
         }
 

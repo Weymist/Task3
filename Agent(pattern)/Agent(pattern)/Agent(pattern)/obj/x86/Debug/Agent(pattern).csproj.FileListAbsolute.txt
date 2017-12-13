@@ -27,3 +27,10 @@ C:\Laksha\ООП\Agent(pattern)\Agent(pattern)\Agent(pattern)\bin\Debug\Agent(pa
 C:\Laksha\ООП\Agent(pattern)\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent(pattern).csprojResolveAssemblyReference.cache
 C:\Laksha\ООП\Agent(pattern)\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent_pattern_.MessageForm.resources
 C:\Laksha\ООП\Agent(pattern)\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent(pattern).csproj.GenerateResource.Cache
+C:\Laksha\1\oop3att-master (1)\oop3att-master\Agent(pattern)\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent(pattern).exe
+C:\Laksha\1\oop3att-master (1)\oop3att-master\Agent(pattern)\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent(pattern).pdb
+C:\Laksha\1\oop3att-master (1)\oop3att-master\Agent(pattern)\Agent(pattern)\Agent(pattern)\bin\Debug\Agent(pattern).exe
+C:\Laksha\1\oop3att-master (1)\oop3att-master\Agent(pattern)\Agent(pattern)\Agent(pattern)\bin\Debug\Agent(pattern).pdb
+C:\Laksha\1\oop3att-master (1)\oop3att-master\Agent(pattern)\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent(pattern).csprojResolveAssemblyReference.cache
+C:\Laksha\1\oop3att-master (1)\oop3att-master\Agent(pattern)\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent_pattern_.MessageForm.resources
+C:\Laksha\1\oop3att-master (1)\oop3att-master\Agent(pattern)\Agent(pattern)\Agent(pattern)\obj\x86\Debug\Agent(pattern).csproj.GenerateResource.Cache

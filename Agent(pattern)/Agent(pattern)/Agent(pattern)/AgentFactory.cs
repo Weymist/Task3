@@ -7,36 +7,37 @@ namespace Agent_pattern_
 {
     class AgentFactory
     {
-        private static AgentFactory instance; //была ли фабрика создана
+        private static AgentFactory instance; //ссылка на конкретный экземпляр данного объекта
 
         private AgentFactory() //конструктор
         { }
 
-        public ConsoleAgent CreateConsoleAgent(string param) 
+        public ConsoleAgent CreateConsoleAgent(string param)  //создание нового консольного агента
         {
             return new ConsoleAgent(param);
         }
 
-        public FormAgent CreateFormAgent(string param)
+        public FormAgent CreateFormAgent(string param) //создание нового форменного агента
         {
             return new FormAgent(param);
         }
 
-        public AbstractAgent CreateConsoleLogAgent(string param)
+        public AbstractAgent CreateLogAgent(string param, string type) //создание консольного/форменного агента с выводом в файл
         {
-            AbstractAgent agent = new  ConsoleAgent(param);
+            AbstractAgent agent;
+            if (type == "Console")
+            {
+                agent = new ConsoleAgent(param);
+            }
+            else
+            {
+                agent = new FormAgent(param);
+            }            
             agent = new AgentDecorator(agent.fileName, agent);
             return agent;
         }
-
-        public AbstractAgent CreateFormLogAgent(string param)
-        {
-            AbstractAgent agent = new FormAgent(param);
-            agent = new AgentDecorator(agent.fileName, agent);
-            return agent;
-        }
-
-        public static AgentFactory GetInstance() //создание фабрики
+             
+        public static AgentFactory GetInstance() //вызов конструктора для создания объекта 
         {
             if (instance == null)
             {

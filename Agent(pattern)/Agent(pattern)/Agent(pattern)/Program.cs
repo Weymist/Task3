@@ -25,30 +25,30 @@ namespace Agent_pattern_
             switch (agentType) //выбор агента
             {
                 case 1:
-                    {
-                        RunConsoleAgent();
+                    { 
+                        RunConsoleAgent(); //запуск агента, для вывода в консоль
                          break;
                     }
                 case 2:
                     {
-                        RunFormAgent();
+                        RunFormAgent(); //запуск агента, для вывода в форму
                         break;
                     }
                 case 3:
                     {
-                        RunConsoleLogAgent();
+                        RunConsoleLogAgent(); //запуск агента, для вывода в консоль и записи в файл
                         break;
                     }
                 case 4:
                     {
-                        RunFormLogAgent();
+                        RunFormLogAgent(); //запуск агента, для вывода в форму и записи в файл
                         break;
                     }
                 default:
                     break;
             }         
-            agent.ReadMessage();
-            agent.ShowMessage();
+            agent.ReadMessage(); //вызов метода чтения
+            agent.ShowMessage(); //вызов метода вывода
             Console.ReadKey();
         }
 
@@ -59,17 +59,17 @@ namespace Agent_pattern_
 
         static void RunFormAgent() //форменный агент
         {
-            agent = fabrica.CreateFormAgent("test.txt");
+            agent = fabrica.CreateFormAgent("test.txt"); //инициализация агента
         }
 
         static void RunConsoleLogAgent() //консольный агент с выводом
         {
-            agent = fabrica.CreateConsoleLogAgent("test.txt");
+            agent = fabrica.CreateLogAgent("test.txt", "Console"); //инициализация агента
         }
 
         static void RunFormLogAgent() //форменный агент с выводом
         {
-            agent = fabrica.CreateFormLogAgent("test.txt");
+            agent = fabrica.CreateLogAgent("test.txt", "Form"); //инициализация агента
         }
     }
 }

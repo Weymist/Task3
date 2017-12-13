@@ -23,7 +23,7 @@ namespace Agent_pattern_
 
         public override void ShowMessage() //вывод сообщения
         {
-            LogMessage();
+            LogMessage(); //вызов метода вывода сообщения в файл
             agent.ShowMessage();
         }
 
@@ -44,7 +44,7 @@ namespace Agent_pattern_
             }
             finally
             {
-                logFile.Close();
+                logFile.Close(); //закртыие файла
             }
         }
     }

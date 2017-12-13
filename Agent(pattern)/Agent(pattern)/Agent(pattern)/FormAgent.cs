@@ -34,7 +34,7 @@ namespace Agent_pattern_
             }
             finally
             {
-                 file.Close();
+                 file.Close(); //закрытие файла
             }
         }
 

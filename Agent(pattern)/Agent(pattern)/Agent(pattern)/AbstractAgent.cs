@@ -17,8 +17,8 @@ namespace Agent_pattern_
             messages = new List<string>();
         }
 
-        public abstract void ReadMessage();
+        public abstract void ReadMessage(); //абстрактный метод чтения
 
-        public abstract void ShowMessage();
+        public abstract void ShowMessage(); //абстрактный метод вывода
     }
 }
